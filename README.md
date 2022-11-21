@@ -22,7 +22,7 @@ $ pod install
 ```
 2) Open `ProductList.xcworkspace` file
 
-## Application icon view
+## Application demo
 
 
 
