@@ -1,29 +1,28 @@
-**ProductList**
-
+# ProductList
 Application that has 2 pages:
+1) A table of products (devices, laptops, etc.)
+   - In each cell there should be an icon, the name of the product and the price
+   - Ability to delete from the table
+   - When pressed, we get to the next screen
+2) Page 2 (with photos):
+   - Photos should be divided into sections, for example:
+     - 1 section — ImageCollectionViewCell (photos of products). 
+     - 2 section — product details
 
-A table of products (devices, laptops, etc.)
+## Requirements:
+ - Swift
+ - The user interface of the application is configured by code using SnapKit, KingFisher
+ - UITableView, UICollectionView, Alamofire
 
+## Installation
 
-In each cell there should be an icon, the name of the product and the price
-
-When pressed, we get to the next screen
-
-Page 2 (with photos):
-
-1. section — ImageCollectionViewCell
-
-2. section — product details
-
-**Requirements:**
-Swift
-The user interface of the application is configured by code using SnapKit
-UITableView, UICollectionView
-
-**Installation**
-In root directory of the project run:
+1) In root directory of the project run:
+```bash
 $ pod install
-Open ProductList.xcworkspace file
+```
+2) Open `ProductList.xcworkspace` file
+
+## Application icon view
 
 
 
